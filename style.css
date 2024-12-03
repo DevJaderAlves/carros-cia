@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana';
+}
+header{
+    width: 100%;
+    background-color: black;
+    color: #be8200;
+    border-bottom: 1px solid #674600;
+    position: fixed;
+    padding: 15px;
+}
+.limita-largura{
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+.secao-topo h1{
+    font-size: 36px;
+}
+.links-topo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.links-topo a{
+    font-size: 20px;
+    color: #be8200;
+    text-decoration: none;
+    margin: 10px 0;
+    border-bottom: 3px solid #be8200;
+}
+
+.banner img{
+    width: 100%;
+}
+.secao-imagem{
+    width: 100%;
+}
+.secao-imagem img{
+    width: 600px;
+}
+h2{
+    font-size: 28px;
+    margin: 20px 0;
+    font-weight: normal;
+}
+.texto{
+    width: 100%;
+    margin: 30px 0;
+    padding: 0 20px;
+    line-height: 28px;
+    text-align: justify;
+}
+h3{
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+.secao-mapa{
+    width: 100%;
+    padding: 0 20px;
+}
+.secao-mapa iframe{
+    width: 100%;
+}
+strong a{
+    color: #be8200;
+}
+footer{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 16px 0;
+    margin-top: 25px;
+}
+.secao-rodape p{
+    font-size: 22px;
+}
+/* @media (max-width: 10) {
+    
+} */
+@media (max-width: 625px) {
+    header{
+        padding: 10px 0;
+    }
+    .secao-topo h1{
+        font-size: 30px;
+    }
+    .links-topo a{
+        font-size: 18px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 20px;
+    }
+    .secao-imagem{
+        padding: 10px;
+    }
+    .secao-imagem img{
+        width:100%;
+    }
+    .texto{
+        text-align: center;
+    }
+    .secao-rodape p{
+        font-size: 18px;
+    }
+    .secao-mapa iframe{
+        width: 100%;
+        height: 300px;
+    }
+}
+@media (max-width: 425px) {
+    header{
+        padding: 5px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    .links-topo{
+        gap: 20px;
+    }
+    .links-topo a{
+        font-size: 16px;
+        margin: 0;
+    }
+}
